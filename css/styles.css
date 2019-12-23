@@ -1,0 +1,22 @@
+body {
+    background-image: url("../assets/images/snowBackground.gif");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.jumbotron {
+    background-color: red;
+    color: white;
+    
+}
+.container {
+    background-color: green;
+    margin-bottom: 1%;
+}
+.card {
+    background-color: indigo;
+    color:white
+}
+.footer {
+    background-color: red;
+    color: white;
+}
