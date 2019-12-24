@@ -35,15 +35,17 @@ const family = [
 $(document).ready(function () {
     console.log(family)
     for (let i = 0; i < family.length; i++) {
+        let fMember = family[i].name.toLowerCase();
         $(".familyCards").append(
-            $("<div>").addClass("col-lg-2 col-md-2 col-sm-2").append(
-                $("<div>").addClass("card m-2").append(
+            $("<div>").addClass(`col-lg-2 col-md-2 col-sm-2`).append(
+                $("<div>").addClass(`card m-2 ${fMember} family`).append(
                     $("<img>").addClass("card-img-top").attr("src", family[i].picture),
                     $("<div>").addClass("card-body text-center").append(
-                        $("<h4>").text(family[i].name)
+                        $("<a>").text(family[i].name).addClass('btn btn-success').attr("href", `familyPages/${fMember}.html`)
                     )
                 )
             )
         )
     }
+
 })

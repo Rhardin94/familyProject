@@ -12,16 +12,18 @@ body {
     background-color: green;
     margin-bottom: 1%;
 }
-.card {
-    background-color: indigo;
-    color:white
-}
 .footer {
     background-color: red;
     color: white;
 }
-img {
-    height: 10%;
-    width: 10%; 
-    border: 3px red solid;    
+.kelly1 {
+    height: 15%;
+    width: 15%;
+    border: 3px green solid;
+}
+.kelly5, .kelly2, .kelly3 {
+    height: 70%;
+    width: 30%;
+    /* float: right; */
+    border: 3px red solid;
 }
