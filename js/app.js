@@ -30,6 +30,14 @@ const family = [
     {
         name: "Papa",
         picture: "assets/images/papa/papa1.jpg"
+    },
+    {
+        name: "Mark",
+        picture: "assets/images/mark/mark2.jpg"
+    },
+    {
+        name: "Patty",
+        picture: "assets/images/patty/patty1.jpg"
     }
 ]
 $(document).ready(function () {
