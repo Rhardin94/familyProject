@@ -1,0 +1,33 @@
+body {
+    background-image: url("../assets/images/snowBackground.gif");
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.jumbotron {
+    background-color: red;
+    color: white;
+    
+}
+.container {
+    background-image: url("../assets/images/david/david7.jpg");
+    background-position: center;
+    margin-bottom: 1%;
+}
+.footer {
+    background-color: red;
+    color: white;
+}
+.img1 {
+    height: 15%;
+    width: 15%;
+    border: 3px green solid;
+}
+.img2 {
+    height: 80%;
+    width: 20%;
+    /* float: right; */
+    border: 3px red solid;
+}
+a {
+    text-decoration: none;
+}
