@@ -10,7 +10,7 @@ body {
 }
 .container {
     background-image: url("../assets/images/patty/patty7.jpg");
-    background-position: center;
+    /* background-position: center; */
     margin-bottom: 1%;
 }
 .footer {
@@ -23,8 +23,8 @@ body {
     border: 3px green solid;
 }
 .img2 {
-    height: 80%;
-    width: 20%;
+    height: 30%;
+    width: 30%;
     /* float: right; */
     border: 3px red solid;
 }
