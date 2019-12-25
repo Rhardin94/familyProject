@@ -16,14 +16,17 @@ body {
     background-color: red;
     color: white;
 }
-.kelly1 {
+.img1 {
     height: 15%;
     width: 15%;
     border: 3px green solid;
 }
-.kelly5, .kelly2, .kelly3 {
+.img2 {
     height: 70%;
     width: 30%;
     /* float: right; */
     border: 3px red solid;
+}
+a {
+    text-decoration: none;
 }

@@ -12,18 +12,9 @@ body {
     background-color: green;
     margin-bottom: 1%;
 }
-.card {
-    background-color: indigo;
-    color:white
-}
 .footer {
     background-color: red;
     color: white;
-}
-img {
-    height: 10%;
-    width: 10%; 
-    border: 3px red solid;    
 }
 .img1 {
     height: 15%;
@@ -35,4 +26,7 @@ img {
     width: 25%;
     /* float: right; */
     border: 3px red solid;
+}
+a {
+    text-decoration: none;
 }
