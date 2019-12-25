@@ -8,7 +8,7 @@ body {
     color: white;
     
 }
-.container {
+.main {
     background-color: green;
     margin-bottom: 1%;
 }
@@ -35,4 +35,16 @@ img {
     width: 25%;
     /* float: right; */
     border: 3px red solid;
+}
+
+@media screen and (max-width: 400px) {
+    .img1 {
+        height: 55%;
+        width: 55%;
+    }
+    
+    .img2 {
+        height: 50%;
+        width: 50%;
+    }
 }

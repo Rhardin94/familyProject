@@ -23,8 +23,8 @@ body {
     border: 3px green solid;
 }
 .img2 {
-    height: 80%;
-    width: 20%;
+    height: 50%;
+    width: 50%;
     /* float: right; */
     border: 3px red solid;
 }
