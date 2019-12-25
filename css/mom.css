@@ -9,7 +9,8 @@ body {
     
 }
 .container {
-    background-image: url("../assets/images/kelly/kelly8.jpg");
+    background-image: url("../assets/images/mom/mom5.png");
+    background-position: center;
     margin-bottom: 1%;
 }
 .footer {
@@ -17,13 +18,13 @@ body {
     color: white;
 }
 .img1 {
-    height: 15%;
-    width: 15%;
+    height: 10%;
+    width: 10%;
     border: 3px green solid;
 }
 .img2 {
-    height: 70%;
-    width: 30%;
+    height: 80%;
+    width: 20%;
     /* float: right; */
     border: 3px red solid;
 }
